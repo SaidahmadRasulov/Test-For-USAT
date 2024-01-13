@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="box">
+        <h1>Registratsia</h1>
+        <form action="#" id="form">
+          <div class="mb">
+            <label for="userName">Ism Familiyangiz kiriting</label>
+            <input autocomplete="off" required name="ism" id="userName" type="text" />
+          </div>
+          <div class="mb">
+            <label for="number">Telefon raqamingiz kiriting</label>
+            <input autocomplete="off" required name="phone" id="number" type="number" />
+          </div>
+          <div class="mb">
+            <label for="schoolL">Qaysi maktabda oqiysiz?</label>
+            <input autocomplete="off" required name="school" id="schoolL" type="text" />
+          </div>
+          <div class="mb">
+            <label for="classRoom">Nechanchi sinfda?</label>
+            <input autocomplete="off" required name="class" id="classRoom" type="number" />
+          </div>
+          <div class="mb">
+            <label for="parents">Ota Onangiz ismi va telefon raqami</label>
+            <textarea
+            autocomplete="off"
+              required
+              name="parent"
+              id="parents"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="mb">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+      <div class="entering_test">
+        <p>Testga otish uchun shu tugmani bosing!</p>
+        <a href="https://www.youtube.com" target="_blank">
+          <button>Testga otish</button>
+        </a>
+      </div>
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
