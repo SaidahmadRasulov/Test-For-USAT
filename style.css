@@ -18,7 +18,7 @@
 
 .box  {
     position: absolute;
-    top: 2rem;
+    top: 5rem;
     transition: all .3s ease-in-out;
     box-shadow: 0 0 5px 0 gray;
     padding: .5rem;
@@ -80,13 +80,15 @@
 }
 
 .visible {
-    top: 5%;
+    top: 35%;
     transition: all .4s ease-in-out;
-    left: 35%;
+    left: 30%;
 }
 
 textarea {
     height: 100px;
+    width: 100%;
+    resize: none;
 }
 
 input[type='submit'] {
