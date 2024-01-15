@@ -22,9 +22,10 @@
     transition: all .3s ease-in-out;
     box-shadow: 0 0 5px 0 gray;
     padding: .5rem;
-    left: 35%;
+    left: 50%;
     width: 400px;
     border-radius: 5px;
+    transform: translateX(-50%);
 }
 
 .mb {
