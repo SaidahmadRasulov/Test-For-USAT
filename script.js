@@ -1,6 +1,6 @@
 function isValidPhoneNumber(phoneNumber) {
   const phoneRegex = /\+\d{3}\d{2}\d{3}\d{2}\d{2}$/;
-  return phoneRegex.test(phoneNumber);
+  return phoneRegex.test(phoneNumber.trim());
 }
 emailjs.init("8ERjlfNfMnEj4fFTP");
 document.getElementById("form").addEventListener("submit", function (event) {
