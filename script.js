@@ -5,6 +5,12 @@ document.getElementById("form").addEventListener("submit", function (event) {
   ShowEnterBtn()
 });
 
+const select = document.getElementById('course');
+
+select.addEventListener('change', function() {
+  console.log(select.value)
+})
+
 function SendMail() {
   const params = {
     fullName: document.getElementById("userName").value,
@@ -12,6 +18,7 @@ function SendMail() {
     school: document.getElementById("schoolL").value,
     class: document.getElementById("classRoom").value,
     parent: document.getElementById("parents").value,
+    course: document.getElementById('course').value
   };
 
   if (
@@ -19,6 +26,7 @@ function SendMail() {
     params.phone &&
     params.school &&
     params.class &&
+    params.course &&
     params.parent !== ""
   ) {
     emailjs
