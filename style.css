@@ -118,3 +118,23 @@ select {
 select:hover {
     cursor: pointer;
 }
+
+@media (min-width: 0px) and (max-width: 420px) {
+    .box {
+        width: 90%;
+        top: .5rem;
+    }
+    input[type='submit'] {
+        padding: .5rem;
+    }
+}
+
+@media (min-width: 420px) and (max-width: 768px) {
+    .box {
+        width: 80%;
+        top: .5rem;
+    }
+    input[type='submit'] {
+        padding: .5rem;
+    }
+}
