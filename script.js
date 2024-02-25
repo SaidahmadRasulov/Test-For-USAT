@@ -4,7 +4,7 @@ function isValidPhoneNumber(phoneNumber) {
   return phoneRegex.test(cleanedPhoneNumber);
 }
 
-emailjs.init("8ERjlfNfMnEj4fFTP");
+emailjs.init("qUH0ienfQBGXOd581");
 document.getElementById("form").addEventListener("submit", function (event) {
   event.preventDefault();
   SendMail();
@@ -36,7 +36,7 @@ function SendMail() {
       alert("Telefon raqam kiritilmagan. Iltimos telefon raqam kiriting.");
     } else {
       emailjs
-        .send("service_29a517y", "template_hskqdeosss", params)
+        .send("service_ntqbb8a", "template_sq8msjy", params)
         .then(function (response) {
           console.log("Email sent successfully:", response);
         })
