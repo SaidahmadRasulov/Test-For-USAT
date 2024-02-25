@@ -36,7 +36,7 @@ function SendMail() {
       alert("Telefon raqam kiritilmagan. Iltimos telefon raqam kiriting.");
     } else {
       emailjs
-        .send("service_ndpq0tw", "template_hskqdeosss", params)
+        .send("service_29a517y", "template_hskqdeosss", params)
         .then(function (response) {
           console.log("Email sent successfully:", response);
         })
